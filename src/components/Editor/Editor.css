@@ -1,0 +1,21 @@
+.Editor__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232323;
+  margin-bottom: 0px;
+}
+
+.Editor__controls h1 {
+  margin-left: 280px;
+}
+
+.Editor__controls button {
+  color: #232323;
+  background-color: #DFE3E5;
+  border: none;
+  border-radius: 3px;
+  margin-right: 14px;
+  padding: 7px 11px;
+  font-weight: 700;
+}

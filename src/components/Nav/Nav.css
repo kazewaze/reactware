@@ -1,0 +1,46 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 3px;
+}
+
+.Nav--left, .Nav--right {
+  display: flex;
+  align-items: center;
+}
+
+.Nav__logo {
+  height: 50px;
+  width: 75px;
+  padding: 23px 23px;
+  margin-bottom: 7px;
+}
+
+.Nav__links--left, .Nav__links--right {
+  display: flex;
+}
+
+.Nav__links__link, .Nav__links__link--btn {
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 23px;
+}
+
+.Nav__links__link a:hover {
+  color: #DFE3E5;
+}
+
+.create-component-btn {
+  color: #47525D;
+  background-color: #DFE3E5;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 7px;
+  font-weight: 900;
+}
+
+.create-component-btn:hover {
+  color: #212529;
+}

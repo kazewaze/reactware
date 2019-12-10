@@ -1,0 +1,12 @@
+.ComponentRender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 700px;
+  background-color: #DFE3E5;
+  border: none;
+  border-radius: 3px;
+  padding: 23px;
+  margin: 7px;
+}

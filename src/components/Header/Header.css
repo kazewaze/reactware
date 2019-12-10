@@ -1,0 +1,16 @@
+.Header {
+  margin: 14px 14px;
+  padding: 14px;
+}
+
+.Header__heading {
+  color: #DFE3E5;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.Header__tagline {
+  color: #DFE3E5;
+  font-size: 25px;
+  font-weight: 300;
+}

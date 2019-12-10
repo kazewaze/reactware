@@ -1,0 +1,12 @@
+.CodeCopy {
+  margin: 7px;
+}
+
+.copy-btn button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #212529;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+}
