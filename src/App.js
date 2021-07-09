@@ -6,7 +6,7 @@ import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 
 import ComponentRender from './components/ComponentRender/ComponentRender';
-import Button from './components/Button';
+import Button from './components/Button/Button';
 import Editor from './components/Editor/Editor';
 
 import axios from 'axios';
@@ -65,7 +65,7 @@ class App extends React.Component {
         <Header />
         <div className="Code-Edit">
           <Editor onChange={this.onJsxChange} code={'jsx'} />
-          <Editor onChange={this.onCssChange} onBtnClick={this.onBtnClick} saveSuccess={this.state.saveSuccess} />
+          <Editor onChange={this.onCssChange} code={'css'} onBtnClick={this.onBtnClick} saveSuccess={this.state.saveSuccess} />
         </div>
         <ComponentRender>
           <Button>CLick Me</Button>
